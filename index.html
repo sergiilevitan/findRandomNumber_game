@@ -107,10 +107,10 @@
         console.log(value); 
         console.log(X)
         if (value > X) {
-            attemptsLog.insertAdjacentHTML('beforeend', ` X < <li>${value}</li>` );   
+            attemptsLog.insertAdjacentHTML('beforeend', `<li>X < ${value}</li>` );   
         }
         if (value < X) {
-           attemptsLog.insertAdjacentHTML('beforeend', ` X > <li>${value} </li>` );        
+           attemptsLog.insertAdjacentHTML('beforeend', `<li>X >${value} </li>` );        
         }
         if (value === X) {
             prompt.textContent = `Congratulation X = ${X}!!!!`;
